@@ -1,0 +1,55 @@
+.student {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../assets/Library.jpg");
+    background-size: 100% 100%; 
+    height: 86.2vh; 
+    align-items: center;
+}
+
+.btn{
+    cursor: pointer;
+    height: 1.3em;
+    font-family: 'HARRYP__', "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: darkred;
+    color: lemonchiffon;
+    border-color:lemonchiffon; 
+}
+
+.student-table{
+    font-size: 1.5em;
+    background-color: rgba(192,192,192, 0.8);
+    border-left: 1px solid rgb(24,24,24,0.8);
+    border-right: 1px solid rgb(24,24,24,0.8);
+    border-top: 1px solid rgb(24,24,24,0.8);
+    color: rgb(24,24,24);
+}
+
+.row{
+    border-bottom: 1px solid rgb(24,24,24,0.8);
+}
+
+.top-space{
+    margin-top: .5em;
+}
+
+.left{
+    margin-left: 1em;
+}
+
+.detail{
+    background-color: black;
+    font-size: 1.5em;
+    color: darkred;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.academic{
+    display: flex;
+    flex-wrap: wrap;
+}

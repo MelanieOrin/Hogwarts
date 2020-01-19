@@ -1,0 +1,12 @@
+.header  {
+    font-size: 2.5em;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid darkred;
+    border-top: 1px solid darkred;
+    background-color: black;
+    color:	#ccac00;
+}

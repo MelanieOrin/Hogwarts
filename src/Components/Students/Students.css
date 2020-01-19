@@ -1,0 +1,87 @@
+.students {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../assets/GreatHall.jpg");
+    background-size: 100% 100%; 
+    height: 86.2vh; 
+    align-items: center;
+    cursor: default;
+}
+
+.students-table{
+    margin-top: .5em;
+    background-color: rgba(192,192,192, 0.8);
+    display: flex;
+    flex-direction: column;
+    color: rgb(24,24,24);
+    border-left: 1px solid rgb(24,24,24,0.8);
+    border-right: 1px solid rgb(24,24,24,0.8);
+    border-top: 1px solid rgb(24,24,24,0.8);
+}
+
+.table-row:hover{
+    background-color: rgba(192,192,192, 1);
+}
+
+.table-row {
+    border-bottom: 1px solid rgb(24,24,24,0.8);
+    flex-direction: row;
+    display: flex;
+    padding: .3em;
+}
+
+.table-header {
+    background-color: rgba(192,192,192, 1);
+    border-bottom: 3px solid rgb(24,24,24,1);
+    display: flex;
+    padding: .3em;
+    font-weight: bold;
+    min-width: 250px;
+}
+
+.table-link{
+    text-decoration: none;
+    color: rgb(24,24,24)
+}
+
+.addBtn{
+    cursor: pointer;
+    height: 1.3em;
+    font-family: 'HARRYP__', "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: darkred;
+    color: lemonchiffon;
+    border-color:lemonchiffon; 
+}
+
+.add-link{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.row-id{
+    display: flex;
+    flex-basis: 10%;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.row-first{
+    display: flex;
+    flex-basis: 40%;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.row-last{
+    display: flex;
+    flex-basis: 50%;
+    font-size: 1.5em;
+}
+
+.reader-info{
+    background-color: black;
+    font-size: 1.5em;
+    color: darkred;
+}

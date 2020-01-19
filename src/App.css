@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'HARRYP__';
+  src: url('./HARRYP__.TTF');
+}
+
+.App {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'HARRYP__', "Times New Roman", Times, serif;
+}

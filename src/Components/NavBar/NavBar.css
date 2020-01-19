@@ -1,0 +1,15 @@
+.navbar{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid darkred;
+    font-size: 1.9em;
+    background-color: black;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: steelblue;
+}

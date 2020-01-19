@@ -1,0 +1,29 @@
+.new-student {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../assets/SortingHat.jpg");
+    background-size: 100% 100%; 
+    height: 86.2vh; 
+}
+
+form {
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.submitBtn{
+    cursor: pointer;
+    height: 1.3em;
+    font-family:'HARRYP__', "Times New Roman", Times, serif;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: darkred;
+    color: lemonchiffon;
+    border-color:lemonchiffon; 
+    margin-top: .5em;
+}
+
+.space{
+    margin-top: 1em;
+    margin-left: .5em;
+}
